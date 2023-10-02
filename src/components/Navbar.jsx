@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* Right Section */}
       <div className="mt-4 sm:mt-0">
-        <Link to={"/Auth"}>
+        <Link to={"/popUp"}>
           <button className="text-blue-950 font-semibold text-lg">
             Get Started
           </button>

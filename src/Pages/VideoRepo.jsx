@@ -7,12 +7,13 @@ import Recent from "../VideoRepo/RecentFiles"
 const videoRepo = () =>
 {
     return (
-        <main>
-            <Navbar />
-            <Header />
-            <Recent />
-            <Previous />
-        </main>
+      <main>
+        <Navbar />
+        <Header />
+        <div className="border-t border-gray-300 my-4"></div>
+        <Recent />
+        <Previous />
+      </main>
     );
 };
 export default videoRepo;
