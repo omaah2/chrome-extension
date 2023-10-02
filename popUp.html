@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HelpMeOutExtension</title>
-    <script src="popUp.js"></script>
+    <link rel="stylesheet" href="popUp.css">
+    <title>HelpMeOut</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div class="content">
+        <div class="main">
+            <div>
+                <img src="./src/assets/logo.png" alt="">
+            </div>
+            <div class="icons">
+                <img class="icon" src="./src/assets/settings.svg" alt="">
+                <img class="icon_one" src="./src/assets/close.svg" alt="">
+            </div>
+        </div>
+        <p class="ease">This extension helps you record and share help videos with ease.</p>
+        <div class="tabs">
+            <div>
+                <img style="cursor: pointer;" src=".src/assets/monitor.svg" alt="">
+                <p>Full Screen</p>
+            </div>
+            <div>
+                <img class="icon" src="./src/assets/copy.svg" alt="">
+                <p>Current Tab</p>
+            </div>
+        </div>
+        <div class="toggle">
+            <div style="display: flex; align-items: center;">
+                <img src="./src/assets/video-camera.png" alt="">
+                <span style="margin-left: 5px;">Camera</span>
+            </div>
+            <div>
+                <img style="cursor: pointer;" src="./src/assets/toggle.svg" alt="">
+            </div>
+        </div>
+        <div class="toggle">
+            <div style="display: flex; align-items: center;">
+                <img src="./src/assets/microphone.png" alt="">
+                <span style="margin-left: 5px;">Audio</span>
+            </div>
+            <div>
+                <img style="cursor: pointer;" src="./src/assets/toggle.svg" alt="">
+            </div>
+        </div>
+        <button id="start_recording" class="btn">Start Recording</button>
+        <button id="stop_recording" class="btn">Stop Recording</button>
+    </div>
+
+    <script src="popUp.js "></script>
 </body>
+
 </html>
